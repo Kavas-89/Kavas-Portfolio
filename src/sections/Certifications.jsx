@@ -4,28 +4,28 @@ import { FiAward, FiCalendar } from 'react-icons/fi'
 export default function Certifications() {
   const certifications = [
     {
-      title: 'Full Stack Web Development',
-      issuer: 'Coursera',
-      date: '2023',
-      image: '🏆'
+      title: 'Data Visualization with Python',
+      issuer: 'GUVI',
+      date: 'Feb 2024',
+      image: '📊'
     },
     {
-      title: 'Java Programming Masterclass',
-      issuer: 'Udemy',
-      date: '2022',
-      image: '🏅'
+      title: 'Responsive Web Design Developer',
+      issuer: 'Free Code Camp',
+      date: 'Nov 2024',
+      image: '�'
     },
     {
-      title: 'React Advanced Concepts',
-      issuer: 'Pluralsight',
-      date: '2022',
-      image: '🎖️'
+      title: 'Java Full Stack Development',
+      issuer: 'Educators',
+      date: 'Nov 2025',
+      image: '☕'
     },
     {
-      title: 'Database Design & Development',
-      issuer: 'LinkedIn Learning',
-      date: '2021',
-      image: '🏆'
+      title: 'Backend Development with Node.js, Express, and MongoDB',
+      issuer: 'Robomatiic',
+      date: 'May 25, 2025',
+      image: '🔧'
     }
   ]
 

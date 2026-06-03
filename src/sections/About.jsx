@@ -2,10 +2,27 @@ import { motion } from 'framer-motion'
 
 export default function About() {
   const achievements = [
-    'Delivered 5+ enterprise-level applications',
-    'Led development teams of 3-5 developers',
-    'Improved application performance by 60%',
-    'Built solutions used by 1000+ users'
+    'Reduced project delays by 25% with task management system',
+    'Cut appraisal processing time by 35% with automated system',
+    'Achieved 99% data accuracy in student record management',
+    'Strong foundation in Java, MERN stack, and database management'
+  ]
+
+  const education = [
+    {
+      degree: 'Master of Computer Applications (MCA)',
+      university: 'Anna University',
+      college: 'Sri Venkateswara College of Computer Applications and Management, Coimbatore',
+      year: '2025',
+      percentage: '78%'
+    },
+    {
+      degree: 'B.Sc. Computer Science',
+      university: 'Bharathiar University',
+      college: 'Nallamuthu Gounder Mahalingam College, Pollachi',
+      year: '2023',
+      percentage: '73%'
+    }
   ]
 
   return (
@@ -34,15 +51,25 @@ export default function About() {
               <div className='relative glass rounded-3xl p-8'>
                 <h3 className='text-2xl font-bold mb-4 text-gradient'>Professional Journey</h3>
                 <p className='text-slate-400 mb-6 leading-relaxed'>
-                  I'm a passionate Full Stack Developer with expertise in building modern web applications. 
-                  With a strong foundation in both frontend and backend technologies, I create seamless 
-                  digital experiences that users love.
+                  Software Developer with hands-on experience in Java, MERN stack development, and relational/non-relational databases. 
+                  Skilled in building scalable web applications, improving workflow efficiency, and developing user-focused solutions. 
+                  Strong foundation in full-stack development, database management, and problem-solving with the ability to collaborate effectively in fast-paced environments.
                 </p>
                 <p className='text-slate-400 mb-6 leading-relaxed'>
-                  My journey in software development started with curiosity and has evolved into a deep 
-                  commitment to writing clean, efficient, and maintainable code. I thrive on solving 
-                  complex problems and turning ideas into reality.
+                  Based in Palakkad, Kerala, I'm passionate about turning complex problems into elegant solutions. 
+                  My journey in software development is driven by curiosity and a commitment to writing clean, efficient, and maintainable code.
                 </p>
+
+                <h4 className='text-xl font-bold mb-4 text-gradient'>Education</h4>
+                <div className='space-y-4'>
+                  {education.map((edu, index) => (
+                    <div key={index} className='p-4 bg-white/5 rounded-xl'>
+                      <h5 className='font-bold mb-1'>{edu.degree}</h5>
+                      <p className='text-slate-400 text-sm mb-1'>{edu.college}</p>
+                      <p className='text-slate-500 text-sm'>{edu.university} | {edu.year} | {edu.percentage}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>
@@ -69,6 +96,15 @@ export default function About() {
                   </div>
                   <p className='text-slate-300'>{achievement}</p>
                 </motion.div>
+              ))}
+            </div>
+
+            <h3 className='text-2xl font-bold mb-6 mt-8'>Languages</h3>
+            <div className='flex flex-wrap gap-2'>
+              {['English', 'Tamil', 'Malayalam'].map((lang, index) => (
+                <span key={index} className='px-4 py-2 bg-white/5 rounded-full glass-hover'>
+                  {lang}
+                </span>
               ))}
             </div>
           </motion.div>

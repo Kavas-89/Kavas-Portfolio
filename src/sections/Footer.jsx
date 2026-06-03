@@ -4,10 +4,10 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Footer() {
   const socialLinks = [
-    { icon: FiGithub, href: 'https://github.com' },
-    { icon: FiLinkedin, href: 'https://linkedin.com' },
-    { icon: FiMail, href: 'mailto:kavas@example.com' },
-    { icon: FaWhatsapp, href: 'https://wa.me/1234567890' }
+    { icon: FiGithub, href: 'https://github.com/kavasvadivel' },
+    { icon: FiLinkedin, href: 'https://linkedin.com/in/kavasvadivel' },
+    { icon: FiMail, href: 'mailto:kavasvadivel11@gmail.com' },
+    { icon: FaWhatsapp, href: 'https://wa.me/918921793054' }
   ]
 
   return (

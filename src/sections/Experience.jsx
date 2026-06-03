@@ -4,25 +4,25 @@ import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi'
 export default function Experience() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2023 - Present',
-      location: 'Remote',
-      description: 'Leading development of enterprise applications using React and Spring Boot. Mentoring junior developers and implementing best practices.'
-    },
-    {
       title: 'Full Stack Developer',
-      company: 'Digital Agency',
-      period: '2022 - 2023',
-      location: 'On-site',
-      description: 'Developed web applications for multiple clients. Collaborated with designers and product managers to deliver high-quality solutions.'
+      company: 'Academic Projects',
+      period: '2021 - Present',
+      location: 'Coimbatore/Palakkad',
+      description: 'Developed multiple full-stack projects including Task Management System and Employee Performance Appraisal System using Java, PHP, MySQL, and web technologies.'
     },
     {
-      title: 'Junior Developer',
-      company: 'Startup Company',
-      period: '2021 - 2022',
-      location: 'Hybrid',
-      description: 'Started my professional journey building web applications. Gained experience in full stack development and agile methodologies.'
+      title: 'Master of Computer Applications',
+      company: 'Sri Venkateswara College of Computer Applications',
+      period: '2023 - 2025',
+      location: 'Coimbatore',
+      description: 'Pursued MCA with focus on software development, database management, and web technologies. Completed academic projects with practical implementation.'
+    },
+    {
+      title: 'B.Sc. Computer Science',
+      company: 'Nallamuthu Gounder Mahalingam College',
+      period: '2020 - 2023',
+      location: 'Pollachi',
+      description: 'Built strong foundation in computer science fundamentals, programming, and algorithms. Developed console applications and gained problem-solving skills.'
     }
   ]
 

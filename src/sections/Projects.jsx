@@ -8,34 +8,34 @@ export default function Projects() {
       title: 'Task Management System',
       category: 'Full Stack',
       description: 'A comprehensive task management application with real-time updates and team collaboration features.',
-      techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+      techStack: ['Java', 'JDBC', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       problem: 'Teams struggled with fragmented communication and inefficient task tracking.',
-      solution: 'Built a centralized platform with drag-and-drop functionality, real-time notifications, and detailed analytics.',
-      results: '50% improvement in team productivity and 30% reduction in project delays.',
-      github: 'https://github.com',
-      live: 'https://example.com'
+      solution: 'Built a Java-based web application with centralized task assignment and tracking. Integrated real-time collaboration and deadline reminders.',
+      results: 'Reduced project delays by 25% and improved team coordination and task visibility.',
+      github: 'https://github.com/kavasvadivel/task-management-system',
+      live: '#'
     },
     {
       title: 'Employee Performance Appraisal System',
       category: 'Full Stack',
       description: 'An automated system for managing employee performance reviews and goal setting.',
-      techStack: ['Java', 'Spring Boot', 'React', 'MySQL'],
+      techStack: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
       problem: 'Manual appraisal processes were time-consuming and prone to errors.',
-      solution: 'Created an automated workflow with customizable templates, 360-degree feedback, and performance analytics.',
-      results: '80% reduction in appraisal processing time and improved employee engagement.',
-      github: 'https://github.com',
-      live: 'https://example.com'
+      solution: 'Developed a role-based PHP system automating task assignments and performance scoring with role-based dashboards.',
+      results: 'Cut appraisal processing time by 35% with improved accuracy and user experience.',
+      github: 'https://github.com/kavasvadivel/employee-appraisal-system',
+      live: '#'
     },
     {
       title: 'Student Mark Management System',
-      category: 'Full Stack',
-      description: 'Educational platform for managing student grades, transcripts, and academic records.',
-      techStack: ['React', 'Node.js', 'MySQL'],
-      problem: 'Schools needed an efficient way to manage and analyze student performance data.',
-      solution: 'Developed a system with grade entry, report generation, and performance analytics dashboard.',
-      results: 'Used by 1000+ students and 50+ faculty members with 99% accuracy in grade calculations.',
-      github: 'https://github.com',
-      live: 'https://example.com'
+      category: 'Desktop Application',
+      description: 'Secure console application for managing student grades and academic records.',
+      techStack: ['C', 'Data Structures', 'File Handling'],
+      problem: 'Schools needed a secure and efficient way to manage student performance data.',
+      solution: 'Created a C-based console application with secure student record management and data validation.',
+      results: 'Achieved 99% data accuracy in grade calculations and record management.',
+      github: 'https://github.com/kavasvadivel/student-mark-system',
+      live: '#'
     }
   ]
 

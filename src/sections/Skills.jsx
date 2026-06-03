@@ -1,27 +1,32 @@
 import { motion } from 'framer-motion'
-import { FiCode, FiServer, FiDatabase, FiTool } from 'react-icons/fi'
+import { FiCode, FiMonitor, FiDatabase, FiTool, FiZap } from 'react-icons/fi'
 
 export default function Skills() {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Programming Languages',
       icon: FiCode,
-      skills: ['React', 'JavaScript', 'Tailwind CSS', 'HTML5', 'CSS3', 'Framer Motion']
+      skills: ['Java', 'C', 'JavaScript']
     },
     {
-      title: 'Backend',
-      icon: FiServer,
-      skills: ['Java', 'Spring Boot', 'Node.js', 'Express.js']
+      title: 'Web Development',
+      icon: FiMonitor,
+      skills: ['HTML5', 'CSS3', 'Bootstrap', 'React']
     },
     {
       title: 'Database',
       icon: FiDatabase,
-      skills: ['MySQL', 'MongoDB']
+      skills: ['MySQL', 'MongoDB', 'PostgreSQL']
     },
     {
-      title: 'Tools',
+      title: 'Tools & Practices',
       icon: FiTool,
-      skills: ['Git', 'GitHub', 'VS Code', 'Postman']
+      skills: ['Eclipse', 'VS Code', 'Git', 'GitHub']
+    },
+    {
+      title: 'Core Concepts',
+      icon: FiZap,
+      skills: ['OOP', 'Data Structures', 'Algorithms', 'Agile']
     }
   ]
 

@@ -51,7 +51,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className='font-bold mb-1'>Email</h4>
-                  <p className='text-slate-400'>kavas@example.com</p>
+                  <p className='text-slate-400'>kavasvadivel11@gmail.com</p>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className='font-bold mb-1'>Phone</h4>
-                  <p className='text-slate-400'>+1 234 567 890</p>
+                  <p className='text-slate-400'>+91 89217 93054</p>
                 </div>
               </div>
 
@@ -71,14 +71,14 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className='font-bold mb-1'>Location</h4>
-                  <p className='text-slate-400'>Remote (Worldwide)</p>
+                  <p className='text-slate-400'>Palakkad, Kerala, India</p>
                 </div>
               </div>
             </div>
 
             <div className='mt-8'>
               <a
-                href='https://wa.me/1234567890'
+                href='https://wa.me/918921793054'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-flex items-center gap-3 px-6 py-3 bg-green-600 rounded-lg hover:bg-green-700 transition-colors'

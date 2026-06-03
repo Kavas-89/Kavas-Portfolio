@@ -9,10 +9,10 @@ export default function Hero() {
   const [isDeleting, setIsDeleting] = useState(false)
 
   const texts = [
+    'Java Developer',
     'Full Stack Developer',
     'Problem Solver',
-    'Tech Enthusiast',
-    'Freelancer'
+    'MERN Stack Developer'
   ]
 
   useEffect(() => {
@@ -83,16 +83,16 @@ export default function Hero() {
           </div>
 
           <div className='flex gap-4'>
-            <a href='https://github.com' target='_blank' rel='noopener noreferrer' className='p-3 glass rounded-lg glass-hover'>
+            <a href='https://github.com/kavasvadivel' target='_blank' rel='noopener noreferrer' className='p-3 glass rounded-lg glass-hover'>
               <FiGithub className='w-6 h-6' />
             </a>
-            <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer' className='p-3 glass rounded-lg glass-hover'>
+            <a href='https://linkedin.com/in/kavasvadivel' target='_blank' rel='noopener noreferrer' className='p-3 glass rounded-lg glass-hover'>
               <FiLinkedin className='w-6 h-6' />
             </a>
-            <a href='mailto:kavas@example.com' className='p-3 glass rounded-lg glass-hover'>
+            <a href='mailto:kavasvadivel11@gmail.com' className='p-3 glass rounded-lg glass-hover'>
               <FiMail className='w-6 h-6' />
             </a>
-            <a href='https://wa.me/1234567890' target='_blank' rel='noopener noreferrer' className='p-3 glass rounded-lg glass-hover'>
+            <a href='https://wa.me/918921793054' target='_blank' rel='noopener noreferrer' className='p-3 glass rounded-lg glass-hover'>
               <FaWhatsapp className='w-6 h-6' />
             </a>
           </div>
